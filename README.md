@@ -23,6 +23,7 @@ Triggered only by user through the in-game script (started by pressing "\`" or "
 ## custom_script_military
 ### Event id 0003
 Triggered only by user through the in-game script (started by pressing "\`" or "~" while in game)
+
 Gives two options for new troops in a few Polish provinces:
   1. 7 5-brigade infantry divisions and 3 3-brigade divisions with Military Police brigades
   2. 5 4-brigade armor divisions and 3 2-brigade divisions with Military Police brigades
