@@ -1,0 +1,109 @@
+country_event = {
+
+	id = 0003
+
+	is_triggered_only = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+		name = "5-brigade divisions"
+
+		#Wilno
+		1532 = { infantry_brigade = current }
+		1532 = { infantry_brigade = current }
+		1532 = { infantry_brigade = current }
+		1532 = { artillery_brigade = current }
+		1532 = { anti_tank_brigade = current }
+		#Suwalki
+		1630 = { infantry_brigade = current }
+		1630 = { infantry_brigade = current }
+		1630 = { infantry_brigade = current }
+		1630 = { artillery_brigade = current }
+		1630 = { anti_tank_brigade = current }
+		#Bydgoszcz
+		1805 = { infantry_brigade = current }
+		1805 = { infantry_brigade = current }
+		1805 = { infantry_brigade = current }
+		1805 = { artillery_brigade = current }
+		1805 = { anti_tank_brigade = current }
+		#Bialystok
+		1810 = { infantry_brigade = current }
+		1810 = { infantry_brigade = current }
+		1810 = { infantry_brigade = current }
+		1810 = { artillery_brigade = current }
+		1810 = { anti_tank_brigade = current }
+		#Gniezno
+		1865 = { infantry_brigade = current }
+		1865 = { infantry_brigade = current }
+		1865 = { infantry_brigade = current }
+		1865 = { artillery_brigade = current }
+		1865 = { anti_tank_brigade = current }
+		#Torun
+		1866 = { infantry_brigade = current }
+		1866 = { infantry_brigade = current }
+		1866 = { infantry_brigade = current }
+		1866 = { artillery_brigade = current }
+		1866 = { anti_tank_brigade = current }
+		#Plock
+		1927 = { infantry_brigade = current }
+		1927 = { infantry_brigade = current }
+		1927 = { infantry_brigade = current }
+		1927 = { artillery_brigade = current }
+		1927 = { anti_tank_brigade = current }
+		#Pruszkow
+		1983 = { infantry_brigade = current }
+		1983 = { infantry_brigade = current }
+		1983 = { police_brigade = current }
+		#Kalisz
+		2038 = { infantry_brigade = current }
+		2038 = { infantry_brigade = current }
+		2038 = { police_brigade = current }
+		#Lodz
+		2040 = { infantry_brigade = current }
+		2040 = { infantry_brigade = current }
+		2040 = { police_brigade = current }
+	}
+
+	option = {
+		name = "Armor divisions"
+
+		#Wilno
+		1532 = { armor_brigade = current }
+		1532 = { armor_brigade = current }
+		1532 = { armor_brigade = current }
+		1532 = { sp_artillery_brigade = current }
+		#Suwalki
+		1630 = { armor_brigade = current }
+		1630 = { armor_brigade = current }
+		1630 = { armor_brigade = current }
+		1630 = { sp_artillery_brigade = current }
+		#Bydgoszcz
+		1805 = { armor_brigade = current }
+		1805 = { armor_brigade = current }
+		1805 = { armor_brigade = current }
+		1805 = { sp_artillery_brigade = current }
+		#Bialystok
+		1810 = { armor_brigade = current }
+		1810 = { armor_brigade = current }
+		1810 = { armor_brigade = current }
+		1810 = { sp_artillery_brigade = current }
+		#Gniezno
+		1865 = { armor_brigade = current }
+		1865 = { armor_brigade = current }
+		1865 = { armor_brigade = current }
+		1865 = { sp_artillery_brigade = current }
+		#Pruszkow
+		1983 = { infantry_brigade = current }
+		1983 = { police_brigade = current }
+		#Kalisz
+		2038 = { infantry_brigade = current }
+		2038 = { police_brigade = current }
+		#Lodz
+		2040 = { infantry_brigade = current }
+		2040 = { police_brigade = current }
+	}
+}
+

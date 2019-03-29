@@ -1,0 +1,144 @@
+country_event = {
+
+	id = 0004
+
+	trigger = {
+		tag = TUR
+		year = 1936
+		POL = {
+			controls = 4720 #Salonica
+			controls = 5076 #Athina
+			controls = 4371 #Sofiya
+			controls = 3917 #Bucuresti
+			controls = 3912 #Beograd
+		}
+		POL = { faction = axis }
+		NOT = { war_with = GRE }
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+		name = "EVTOPTB1101"			# Join the Axis
+
+		join_faction = axis
+		neutrality = -50
+		national_unity = 25
+		rare_materials = 2000
+		crude_oil = 4000
+		supplies = 10000
+		energy = 5000
+		metal = 5000
+		money = 400
+		manpower = 100
+		relation = { who = POL value = 200 }
+		relation = { who = SOV value = -100 }
+		relation = { who = GER value = 100 }
+		relation = { who = TAN value = -100 }
+		relation = { who = MON value = -100 }
+		relation = { who = ITA value = 100 }
+		TUR_4560 = { secede_province = POL }
+		TUR_4503 = { secede_province = POL }
+		POL = { 14154 = { secede_province = TUR } }
+		paternal_autocrat = {
+			organisation = 100
+			popularity = 80
+		}
+		4673 = { industry = 3 }
+		4618 = { industry = 3 }
+		4672 = { industry = 3 }
+		4726 = { industry = 3 }
+
+		4254 = { bergsjaeger_brigade = current }
+		4254 = { bergsjaeger_brigade = current }
+		4254 = { bergsjaeger_brigade = current }
+
+		7305 = { bergsjaeger_brigade = current }
+		7305 = { bergsjaeger_brigade = current }
+		7305 = { bergsjaeger_brigade = current }
+
+		7189 = { bergsjaeger_brigade = current }
+		7189 = { bergsjaeger_brigade = current }
+		7189 = { bergsjaeger_brigade = current }
+
+		4966 = { cavalry_brigade = current }
+		4966 = { cavalry_brigade = current }
+
+		4726 = { cavalry_brigade = current }
+		4726 = { cavalry_brigade = current }
+	}
+}
+
+#
+#
+#
+#Fuck Greece
+#
+#
+#
+
+country_event = {
+
+	id = 0005
+
+	title = "EVTNAME507"
+	desc = "EVTDESC507"
+	picture = "Bitter_Peace"
+
+	trigger = {
+		year = 1936
+		TAG = GRE
+		POL = {
+			controls = 4720 #Salonica
+			controls = 5076 #Athina
+		}
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA507"					# We surrender! Just let us keep what we still have.
+		POL = { threat = { who = all value = -15 } }
+		POL = { end_war = GRE }
+		POL = { threat = { who = GRE value = -50} }
+		
+		non_aggression_pact = POL
+		dissent = 10
+		neutrality = 100
+		threat = { who = all value = -200 }
+		capital = 5381
+		5381 = { industry = 3 }
+		5381 = { naval_base = 3 }
+		5381 = { anti_air = 3 }
+		5381 = { land_fort = 1 }
+		5381 = { coastal_fort = 1 }
+
+		GRE_5204 = { secede_province = POL }
+		GRE_5137 = { secede_province = POL }
+		GRE_5004 = { secede_province = POL }
+		GRE_5076 = { secede_province = POL }
+		GRE_4870 = { secede_province = POL }
+		GRE_5005 = { secede_province = POL }
+		GRE_4921 = { secede_province = POL }
+		GRE_4919 = { secede_province = POL }
+		GRE_4771 = { secede_province = POL }
+		GRE_4720 = { secede_province = POL }
+		BUL_4248 = { secede_province = POL }
+		BUL_4123 = { secede_province = POL }
+		BUL_4559 = { secede_province = POL }
+		BUL_4498 = { secede_province = POL }
+		BUL_4310 = { secede_province = POL }
+		BUL_4245 = { secede_province = POL }
+		BUL_4246 = { secede_province = POL }
+		BUL_4434 = { secede_province = POL }
+		ALB_4716 = { secede_province = POL }
+		ALB_4608 = { secede_province = POL }
+		yugoslavia_region = { secede_province = POL }
+		hungary_region = { secede_province = POL }
+	}
+}
+

@@ -1,0 +1,77 @@
+country_event = {
+
+	id = 0001
+
+	is_triggered_only = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+		name = "EVTOPTA5010"			# Give your support
+		paternal_autocrat = {
+			organisation = 200
+			popularity = 100
+		}
+		fascistic = {
+			organisation = -200
+			popularity = -100
+		}
+		leninist = {
+			organisation = -10
+			popularity = -100
+		}
+		stalinist = {
+			organisation = -10
+			popularity = -100
+		}
+		neutrality = -100
+		relation = { who = SOV value = -60 }
+		relation = { who = GER value = 100 }
+		relation = { who = TAN value = -100 }
+		relation = { who = MON value = -100 }
+		relation = { who = ITA value = 100 }
+		relation = { who = FRA value = -15 }
+		relation = { who = ENG value = -15 }
+	}
+}
+
+country_event = {
+
+	id = 0002
+
+	is_triggered_only = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+		name = "EVTOPTA5010"			# Give your support
+	#Jump starting World War II?
+		LIT = {	war = { target = POL } }
+		LAT = {	war = {	target = POL } }
+		EST = {	war = {	target = POL } }
+	#Cleaning up in the North-East
+		LAT = {	war = {	target = EST } }
+		LAT = {	war = {	target = LIT } }
+		EST = {	war = {	target = LIT } }
+	#Let the Balkans burn in the righteous fire:
+		#Romania
+			ROM = {	war = {	target = HUN } }
+			ROM = {	war = {	target = YUG } }
+			ROM = {	war = {	target = BUL } }
+			ROM = { war = { target = GRE } }
+		#Greece
+			GRE = {	war = {	target = ALB } }
+			GRE = {	war = {	target = BUL } }
+			GRE = {	war = {	target = HUN } }
+		#Yugoslavia
+			YUG = {	war = {	target = HUN } }
+			YUG = {	war = {	target = ROM } }
+			YUG = {	war = {	target = BUL } }
+			YUG = {	war = {	target = GRE } }
+			YUG = {	war = {	target = ALB } }
+	}
+}
