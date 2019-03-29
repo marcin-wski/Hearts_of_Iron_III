@@ -35,6 +35,7 @@ Trigger:
   2. Poland controls capital cities of Yugoslavia, Greece, Bulgaria, and Romania
   3. Poland has joined Axis
   4. Poland is not at war with Greece
+  
 Result:
   1. Turkey joins Axis
   2. Turkey receives a minor boost to materials and manpower, a boost to national unity, and a solid decrease in neutrality
@@ -49,6 +50,7 @@ Result:
 Trigger:
   1. Is = Greece
   2. Poland controls Athens and Salonica
+  
 Result:
   1. Poland gets a slight decrease in threat to everyone
   2. Poland ends war with Greece
@@ -80,7 +82,9 @@ From the (pseudo-)historical standpoint it makes sense - you took over the entir
 You don't have be a historian or strategist to realize that Turkey really has only one option that does not lead to imminent, total annihilation. That option is to negotiate with Poland and join the Axis. Now, Poland is a generous neighbor and as war with Greece already shown Poland doesn't just blindly destroy nations (that is if you let Crete be. You can always invade Crete before taking over Athens or Salonica, thus taking over Crete before the event can be triggered), so when Turkey approaches Poland with offer of an alliance against the communists Poland gives just a few requirements - Turkey has to give away the European provinces. This way Poland fortifies its power as the (de facto) Eastern Empire bordering Russia from Baltic to the Black Sea. At the same time Polish and German government promise to rebuild Turkish government near Ankara, help train Turkish recruits to create new mountain infantry divisions, and sweeten the deal by giving away this one lonely Greek island (let's be honest - you won't utilize it anyway so why bother holding it?). Option 4 clearly seems like the best deal - you get more industry, new divisions, powerfull ally next to you, even more powerfull ally in Western Europe who will help you sort out the Middle East, AND your government is already right-wing anyway so it's an ideological closeness as well.
 
 This scenario does not go any further than this. None other events are changed. Should you want to just kick back and relax now the world will mostly follow the same pattern, especially in the West - Germany will attack Denmark, roll through Netherlands and Belgium to get to France, then help Italy deal with the British forces in Africa, in 1941-1942 Japan will surprise attack USA. Germany will eventually try to bring England to submission although it's unlikely that it will be a successful operation... However, Eastern front is going to be a bit different - Germany _will not_ declare war on the Soviet Union. If you do not attack the Soviets in 1941 USSR will eventually declare war on you somewhere between 1942 and 1943 (just like historians believe Stalin would anyway. When German troops rolled through USSR in 1941 many Soviet troops were in marching positions and many units were explicitly training to attack the West rather than to defend their positions). Winter War of 1940 between USSR and Finland also seem to not be happening, which could be easily explained historically - Russia now borders potentially hostile Poland instead of Germany bound by a non-aggression pact and therefore cannot just move their divisions north to fight Finland...
+
 Another thing - Since German attack on USSR does not happen, D-Day in June, 1944 also does not happen. If you allow it enough time it will probably happen eventually, but it's hard to determine when. It would greatly depend on the war in Africa, invasion on Italy, and the progress of German attacks on England. Especially since USA will be mostly involved in war with Japan at this point.
+
 So the scenario does not change the world too drastically, and there's nothing that stands opposed to the historical realities of 1930's-1940's Europe - No, Spain will not join the Axis (without you explicitly trying for it to happen). Ireland sits quietly and does not join Allies or Axis. No one attacks Switzerland. Scandinavian countries remain largely neutral (Germany may or may not attack Norwey. I've seen them do either one, my guess is it's random at this point). Despite first successes in Ethiopia the Italian forces are quickly overrun by England and France at the beginning of the war. Japan will not be in a position to attack British India (although they will help you if/when Soviet Union attacks you). Mexico and South America will not join the war until much later (when they join the Allies, following the historical pattern). Sooner or later you will be at war with 75-80% of the world.
 
 The scenario might evolve over time if there's bugs or I realize something makes more sense (the Turkish script evolved a few times, and the Greek part came very, very last when I realized that any sane country would sue for peace at the sight of such great defeat, especially since they're alone in that war and cannot expect help from anyone, even if they _do_ join the Allies while they're already at war with the Allies will not actually provide them any help or declare war on you), but it should largely remain the same.
