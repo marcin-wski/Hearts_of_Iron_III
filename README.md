@@ -1,12 +1,11 @@
-<details>
-  <summary><strong>Hearts_of_Iron_III</strong></summary>
-<p>This is just a few simple events added to the main game. They don't change the actual game play or screw up the actual way history goes.
+# Hearts_of_Iron_III
+This is just a few simple events added to the main game. They don't change the actual game play or screw up the actual way history goes.
 This repo includes 3 files:
 
-(there's also a historically plausible explanation to all changes down below)</p>
-</details>
+(there's also a historically plausible explanation to all changes down below)
 
-## custom_script_political
+<details>
+  <summary><h2>custom_script_political</h2></summary>
 ### Event id 0001
 Triggered only by user through the in-game script (started by pressing "\`" or "~" while in game)
   1. Increases paternal autocrats' popularity in the parliament
@@ -21,7 +20,7 @@ Triggered only by user through the in-game script (started by pressing "\`" or "
   1. Lithuania, Latvia, Estonia all declare war on each other
   2. Lithuania, Latvia, Estonia all declare war on Poland
   3. Romania, Hungary, Yugoslavia, Greece, Bulgaria, and Albania all declare war on each other
-
+</details>
 ## custom_script_military
 ### Event id 0003
 Triggered only by user through the in-game script (started by pressing "\`" or "~" while in game)
