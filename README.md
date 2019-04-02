@@ -2,7 +2,7 @@
 This is just a few simple events added to the main game. They don't change the actual game play or screw up the actual way history goes.
 This repo includes 3 files, and a historically plausible explanation to all changes:
 
-## Table of Contents
+## Table of Contents for easy navigation
   1. [custom_script_political](#custom_script_political)
   2. [custom_script_military](#custom_script_military)
   3. [custom_script_turkey_and_greece](#custom_script_turkey_and_greece)
