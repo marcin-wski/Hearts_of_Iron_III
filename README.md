@@ -6,7 +6,7 @@ This repo includes 3 files:
 
 <details>
   <summary><h3>custom_script_political</h3></summary>
-  <p><strong>Event id 0001</strong></p>
+  <p><h3>Event id 0001</h3></p>
 Triggered only by user through the in-game script (started by pressing "\`" or "~" while in game)
   1. Increases paternal autocrats' popularity in the parliament
   2. Decreases fascistic popularity in the parliament
@@ -21,6 +21,7 @@ Triggered only by user through the in-game script (started by pressing "\`" or "
   2. Lithuania, Latvia, Estonia all declare war on Poland
   3. Romania, Hungary, Yugoslavia, Greece, Bulgaria, and Albania all declare war on each other
 </details>
+
 ## custom_script_military
 ### Event id 0003
 Triggered only by user through the in-game script (started by pressing "\`" or "~" while in game)
