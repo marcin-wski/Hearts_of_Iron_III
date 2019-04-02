@@ -1,5 +1,5 @@
 <details>
-  <summary>Hearts_of_Iron_III</summary>
+  <summary><strong>Hearts_of_Iron_III</strong></summary>
 <p>This is just a few simple events added to the main game. They don't change the actual game play or screw up the actual way history goes.
 This repo includes 3 files:
 
