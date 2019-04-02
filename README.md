@@ -7,7 +7,7 @@ This repo includes 3 files:
 <details>
   <summary><h3>custom_script_political</h3></summary>
   <p><strong>Event id 0001</strong></p>
-<ul>Triggered only by user through the in-game script (started by pressing "\`" or "~" while in game)
+<ol>Triggered only by user through the in-game script (started by pressing "\`" or "~" while in game)
   <li>1. Increases paternal autocrats' popularity in the parliament</li>
   2. Decreases fascistic popularity in the parliament
   3. Decreases socialist and communist popularity in the parliament
@@ -15,8 +15,8 @@ This repo includes 3 files:
   5. Increases relations with Germany and Italy
   6. Decreases relations with all Komintern nations
   7. Slightly decreases relations with England and France
-  </ul>
-<p><strong>Event id 0002</h3></summary>
+  </ol>
+<p><h3>Event id 0002</h3></summary>
 Triggered only by user through the in-game script (started by pressing "\`" or "~" while in game)
   1. Lithuania, Latvia, Estonia all declare war on each other
   2. Lithuania, Latvia, Estonia all declare war on Poland
