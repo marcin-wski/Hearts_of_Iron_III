@@ -1,8 +1,10 @@
-# Hearts_of_Iron_III
-This is just a few simple events added to the main game. They don't change the actual game play or screw up the actual way history goes.
+<details>
+  <summary>Hearts_of_Iron_III</summary>
+<p>This is just a few simple events added to the main game. They don't change the actual game play or screw up the actual way history goes.
 This repo includes 3 files:
 
-(there's also a historically plausible explanation to all changes down below)
+(there's also a historically plausible explanation to all changes down below)</p>
+</details>
 
 ## custom_script_political
 ### Event id 0001
