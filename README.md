@@ -6,7 +6,7 @@ This repo includes 3 files, and a historically plausible explanation to all chan
   1. [custom_script_political](#custom_script_political)
   2. [custom_script_military](#custom_script_military)
   3. [custom_script_turkey_and_greece](#custom_script_turkey_and_greece)
-  4. [A Plausible Historical Explanation](#A Plausible Historical Explanation)
+  4. [A Plausible Historical Explanation](#Explanation)
 
 ## custom_script_political
 ### Event id 0001
@@ -66,7 +66,7 @@ Result:
   7. Crete gets a boost to industry, naval base, anti air artillery, land fort, and coastal fort
   8. Greece secedes all provinces to Poland. Only Crete remains Greek
   
-## A Plausible Historical Explanation
+## Explanation
 **It's year 1936...** the world has seen and lived through World War I and truly hoped that it really was the _"war to end all wars"_. This has been proven to be false - Hitler came into power, Germany began training the army and building up the fleet, Soviet Union grows in power and the defeat of 1919-20 did not stop their hopes for spreading the revolution to the rest of the world, Italy has a fascist government, bad things begin happening in Spain, USA goes back to the policy of isolationism, Japan strengthens their hold over Korea and attacks China, United Nations is an utterly powerless organization that cannot prevent any of this from happening, France and England want peace above everything else...
 
 In sight of all these events Eastern Europe grows more and more worried. Polish right-wing movements understand that the Allies are unlikely go to war even to defend their ally and start reviewing their options. ONR _(Obóz Narodowo-Radykalny)_, a fascistic movement, drastically limits its organization and actions and give its full support to OZN _(Obóz Zjednoczenia Narodowego)_ - a more moderate alternative - while at the same time tirelessly undermining the socialist and communist parties and spreading anti-communist propaganda. Thanks to their efforts the public starts looking more favorably towards OZN, which after all was the driving force behind the defeat of the Bolsheviks in 1919-20. The Polish public begins noticing that the Soviet armies are quite literally standing on the border ready to cross at a moment's notice. The Polish army receives a surge of volunteers ready to once more defend their homeland against the Bolshevik invasion and, thanks to the now strongly right-wing leaning of Polish public, Germany supplies a small quantity of medium tanks straight out of the factory.
