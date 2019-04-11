@@ -3,8 +3,7 @@ country_event = {
 	id = 0004
 
 	trigger = {
-		tag = TUR
-		year = 1936
+		TAG = POL
 		POL = {
 			controls = 4720 #Salonica
 			controls = 5076 #Athina
@@ -13,7 +12,7 @@ country_event = {
 			controls = 3912 #Beograd
 		}
 		POL = { faction = axis }
-		NOT = { war_with = GRE }
+		POL = { NOT = { war_with = GRE } }
 	}
 
 	fire_only_once = yes
@@ -25,51 +24,63 @@ country_event = {
 	option = {
 		name = "EVTOPTB1101"			# Join the Axis
 
-		join_faction = axis
-		neutrality = -50
-		national_unity = 25
-		rare_materials = 2000
-		crude_oil = 4000
-		supplies = 10000
-		energy = 5000
-		metal = 5000
-		money = 400
-		manpower = 100
-		relation = { who = POL value = 200 }
-		relation = { who = SOV value = -100 }
-		relation = { who = GER value = 100 }
-		relation = { who = TAN value = -100 }
-		relation = { who = MON value = -100 }
-		relation = { who = ITA value = 100 }
-		TUR_4560 = { secede_province = POL }
-		TUR_4503 = { secede_province = POL }
-		POL = { 14154 = { secede_province = TUR } }
-		paternal_autocrat = {
-			organisation = 100
-			popularity = 80
+		TUR = {
+			join_faction = axis
+			neutrality = -50
+			national_unity = 25
+			rare_materials = 2000
+			crude_oil = 4000
+			supplies = 10000
+			energy = 5000
+			metal = 5000
+			money = 400
+			manpower = 100
+			relation = { who = POL value = 200 }
+			relation = { who = SOV value = -100 }
+			relation = { who = GER value = 100 }
+			relation = { who = TAN value = -100 }
+			relation = { who = MON value = -100 }
+			relation = { who = ITA value = 100 }
+			TUR_4560 = { secede_province = POL }
+			TUR_4503 = { secede_province = POL }
+	
+			paternal_autocrat = {
+				organisation = 100
+				popularity = 80
+			}
+
+			4673 = { industry = 3 }
+			4618 = { industry = 3 }
+			4672 = { industry = 3 }
+			4726 = { industry = 3 }
+	
+			4254 = { bergsjaeger_brigade = current }
+			4254 = { bergsjaeger_brigade = current }
+			4254 = { bergsjaeger_brigade = current }
+	
+			7305 = { bergsjaeger_brigade = current }
+			7305 = { bergsjaeger_brigade = current }
+			7305 = { bergsjaeger_brigade = current }
+
+			7189 = { bergsjaeger_brigade = current }
+			7189 = { bergsjaeger_brigade = current }
+			7189 = { bergsjaeger_brigade = current }
+	
+			4966 = { cavalry_brigade = current }
+			4966 = { cavalry_brigade = current }
+
+			4726 = { cavalry_brigade = current }
+			4726 = { cavalry_brigade = current }
 		}
-		4673 = { industry = 3 }
-		4618 = { industry = 3 }
-		4672 = { industry = 3 }
-		4726 = { industry = 3 }
-
-		4254 = { bergsjaeger_brigade = current }
-		4254 = { bergsjaeger_brigade = current }
-		4254 = { bergsjaeger_brigade = current }
-
-		7305 = { bergsjaeger_brigade = current }
-		7305 = { bergsjaeger_brigade = current }
-		7305 = { bergsjaeger_brigade = current }
-
-		7189 = { bergsjaeger_brigade = current }
-		7189 = { bergsjaeger_brigade = current }
-		7189 = { bergsjaeger_brigade = current }
-
-		4966 = { cavalry_brigade = current }
-		4966 = { cavalry_brigade = current }
-
-		4726 = { cavalry_brigade = current }
-		4726 = { cavalry_brigade = current }
+		POL = {
+			#14154 = { change_controller = TUR }
+			#14154 = { change_owner = TUR }
+			#14154 = { add_core = TUR }
+			#14154 = { remove_core = GRE }
+			#14154 = { remove_core = POL }
+			14154 = { secede_province = TUR }
+			#POL = { 14154 = { secede_province = TUR }}	#I was testing different ways of doing this
+		}
 	}
 }
 
