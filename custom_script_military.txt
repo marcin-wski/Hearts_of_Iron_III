@@ -105,5 +105,47 @@ country_event = {
 		2040 = { infantry_brigade = current }
 		2040 = { police_brigade = current }
 	}
+
+	option = {
+		name = "Armor and motorized divisions"
+
+		#Wilno
+		1532 = { armor_brigade = current }
+		1532 = { armor_brigade = current }
+		1532 = { motorized_brigade = current }
+		1532 = { sp_artillery_brigade = current }
+		#Suwalki
+		1630 = { armor_brigade = current }
+		1630 = { armor_brigade = current }
+		1630 = { motorized_brigade = current }
+		1630 = { sp_artillery_brigade = current }
+		#Bydgoszcz
+		1805 = { armor_brigade = current }
+		1805 = { armor_brigade = current }
+		1805 = { motorized_brigade = current }
+		1805 = { sp_artillery_brigade = current }
+		#Bialystok
+		1810 = { armor_brigade = current }
+		1810 = { armor_brigade = current }
+		1810 = { motorized_brigade = current }
+		1810 = { sp_artillery_brigade = current }
+		#Gniezno
+		1865 = { armor_brigade = current }
+		1865 = { armor_brigade = current }
+		1865 = { motorized_brigade = current }
+		1865 = { sp_artillery_brigade = current }
+		#Pruszkow
+		1983 = { infantry_brigade = current }
+		1983 = { infantry_brigade = current }
+		1983 = { infantry_brigade = current }
+		#Kalisz
+		2038 = { infantry_brigade = current }
+		2038 = { infantry_brigade = current }
+		2038 = { infantry_brigade = current }
+		#Lodz
+		2040 = { infantry_brigade = current }
+		2040 = { infantry_brigade = current }
+		2040 = { infantry_brigade = current }
+	}
 }
 
