@@ -1,0 +1,27 @@
+ountry_event = {
+
+	id = 0007
+
+	trigger = {
+		TAG = POL
+		POL = {
+			controls = ???? #Stockholm
+		}
+		POL = { NOT = { war_with = SWE } }
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+		name = "Join or Die"
+    
+    #Need to take a look at how AI choices are done
+    choice1 -> FIN = {	war = { target = POL } }
+    choice2 -> FIN = {	surrender = { target = POL } } #or is it just FIN = {	surrender = POL } ?
+
+	}
+}
