@@ -23,4 +23,6 @@ event7 -> Turkey gets two choices. 1 - we'll demand their unconditional surrende
 
 event8 -> Finland gets two choices. 1 - we'll demand their unconditional surrender and incorporation into Poland (50/50 AI chance for either) and 2 - we'll demand Turkey joins Axis and fights with us against the Soviets later -> triggered when POL controls SWE
 
-event9 -> SPA -> when Civil War is over and RepSPA won -> RepSpa - alliance with FRA + war on POR. At the beginning of Civil War: NatSpa - alliance with POL and ITA -> POL sends 2 infantry divsions as volunteers to help Nationalists -> spawn in Barcelona?
+event9 -> At the beginning of Civil War: NatSpa - alliance with POL and ITA -> POL sends 2 infantry divsions as volunteers to help Nationalists -> spawn in Barcelona?
+
+event10 -> SPA -> when Civil War is over and RepSPA won -> RepSpa - alliance with FRA + war on POR
