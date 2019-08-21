@@ -34,12 +34,23 @@
     2.4 Spain
       2.4.1 After the Civil War is done and won Republican Spain will be alligning more closely to the Allies (perhaps entering an alliance with France which was supportive of Republican Spain and Franco feared a French intervention) and declare war on Portugal (Portugal was very supportive of Franco's forces in the Civil War), while Nationalist Spain will enter an alliance with Poland and Italy and allign more closely towards Axis
     2.5 Turkey?
-      2.5.1 I'm actually getting pretty annoyed with Turkey and I'm beginning to think we don't need them as allies...
-      2.5.2 What's probably gonna happen is - I'll make a two-choice script. 1 - we'll demand their unconditional surrender and incorporation into Poland (50/50 AI chance for either) and 2 - we'll demand Turkey joins Axis and fights with us against the Soviets later
-      2.5.3 Need to later put some time into research on this
+      2.5.1 After World War 1 Ottoman Empire was broken down by the Entente and large concessions were made to Greece, Italy, Britain, and France
+      2.5.2 November 1, 1922 - Turkey abolishes the Sultanat, officially ending 623 years of Ottoman rule
+      2.5.3 "After failing in 1939 to get a defensive alliance against Germany with Britain, Turkey maintained neutrality during the war (1939–45)" and in 1945 symbolically declared war on Germany and Japan
+      2.5.4 What's probably gonna happen is - I'll make a two-choice script. 1 - we'll demand their unconditional surrender and incorporation into Poland (50/50 AI chance for either) and 2 - we'll demand Turkey joins Axis and fights with us against the Soviets later. History proves that Turkey would apparently much rather have a defensive alliance with the UK rather than join the Axis
     2.6 Scandinavia
-      2.6.1 Not expecting much in here tbh, but for now just making a placeholder, research will follow
+      2.6.1 All three countries neutral in World War 1 (not including Denmark as this will be entirely German problem)
+      2.6.2 Sweden
+        2.6.2.1 Foreign policy concerns in the 1930s centered on Soviet and German expansionism, which stimulated failed efforts at creating Nordic defence co-operation. Sweden followed a policy of armed neutrality during World War II, but thousands of volunteers have helped Finland during the Winter War.
+      2.6.3 Norway
+        2.6.3.1 The only new information to me is that UK made plans for its own invasion on Norway, Germany was just quicker to act on it
+        2.6.3.2 Other than that it's the same story - Norway tried to stay neutral
+      2.6.4 Finland
+        2.6.4.1 Finnish independence from Russia in 1917 and a brief civil war between "reds" and "whites" in 1918 in which "whites" won
+        2.6.4.2 Failed coup attempt in 1932 by a nationalist and anti-communist movement - Lapua Movement
+        2.6.4.3 The Soviet Union started to tighten its policy against Finland in the 1930s, limiting the navigation of Finnish merchant ships between Lake Ladoga and the Gulf of Finland and blocking it totally in 1937.
+        2.6.4.4 In October 1939 USSR sent an ultimatum to place its military bases in Finland, which was declined, and in November 1939 USSR crossed the border to Finland. The war ended on 13 March 1940 and in December 1940 Finland entered military cooperation with Germany
+        2.6.4.5 Same as Turkey? Join us, war, or joining the Axis?
   3. Stealing technology?
     3.1 Confirmed that this is not an option. There is documentation on HoI 1 and HoI 2 but HoI 3 seems to be missing this mechanic
     3.2 Workaround possible with "load_oob = ..." ?
-    3.3 For sure it's a work in progress...
