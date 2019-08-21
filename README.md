@@ -28,3 +28,5 @@ event8 -> Finland gets two choices. 1 - we'll demand their unconditional surrend
 event9 -> At the beginning of Civil War: NatSpa - alliance with POL and ITA -> POL sends 2 infantry divsions as volunteers to help Nationalists -> spawn in Barcelona?
 
 event10 -> SPA -> when Civil War is over and RepSPA won -> RepSpa - alliance with FRA + war on POR
+
+event11 -> copy of Greek surrender script
