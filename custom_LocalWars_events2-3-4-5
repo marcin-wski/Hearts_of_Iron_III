@@ -1,0 +1,79 @@
+country_event = {
+
+	id = 0002
+
+	is_triggered_only = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+		name = "EVTOPTA5010"			# Title, desc, picture, and this name are all gonna be changed
+    
+	#Need to look into alliances
+  
+		LIT = {	war = { target = POL } }
+		LAT = {	war = {	target = POL } }
+		EST = {	war = {	target = POL } }
+    
+    BUL = event3 #again, need to look into this syntax
+  }
+}
+
+country_event = {
+
+	id = 0003
+
+	is_triggered_only = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+	#Bulgaria wants their coast back
+    BUL = {	war = {	target = ROM } }
+		GRE = {	war = {	target = BUL } }
+	}
+}
+
+country_event = {
+
+	id = 0004
+
+	is_triggered_only = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+	#Italian diplomacy in action
+	  YUG = {	war = {	target = GRE } }
+		ALB = {	war = {	target = GRE } }
+      
+    HUN = event5 #yup, need to still research this
+	}
+}
+
+country_event = {
+
+	id = 0005
+  
+  meantime_to_happen = 1 #check this!
+
+	fire_only_once = yes #check this too!
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+	#Hungary reclaiming their territories
+    HUN = {	war = {	target = YUG } }
+		HUN = {	war = {	target = ROM } }
+      
+    HUN = event5 #yup, need to still research this
+	}
+}
