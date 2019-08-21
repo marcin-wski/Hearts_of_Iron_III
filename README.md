@@ -7,6 +7,8 @@ New ideas are currently found in "plans-for-version2" and it will be growing for
 
 Stay tuned for more updates! :)
 
+### Outline of Events planned for Version2 ###
+
 event1 -> Poland accepts German help -> better relations with Germany  + worse relations with Soviets + slightly worse relations with Allies + new units created in the oob part + triggering event2
 
 event2 -> LIT, LAT, EST entering an alliance -> LIT declaring war on POL -> event3
