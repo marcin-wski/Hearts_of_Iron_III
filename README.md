@@ -23,10 +23,12 @@ event6 -> when CHI-JAP war is done -> SIN + Guangxi + Communist China go to war 
 
 event7 -> Turkey gets two choices. 1 - we'll demand their unconditional surrender and incorporation into Poland (50/50 AI chance for either) and 2 - we'll demand Turkey joins Axis and fights with us against the Soviets later -> triggered with POL holding all Balkans
 
-event8 -> Finland gets two choices. 1 - we'll demand their unconditional surrender and incorporation into Poland (50/50 AI chance for either) and 2 - we'll demand Turkey joins Axis and fights with us against the Soviets later -> triggered when POL controls SWE
+event8 -> Turkey decides, surrender or war
 
-event9 -> At the beginning of Civil War: NatSpa - alliance with POL and ITA -> POL sends 2 infantry divsions as volunteers to help Nationalists -> spawn in Barcelona?
+event9 -> Finland gets two choices. 1 - we'll demand their unconditional surrender and incorporation into Poland (50/50 AI chance for either) and 2 - we'll demand Turkey joins Axis and fights with us against the Soviets later -> triggered when POL controls SWE
 
-event10 -> SPA -> when Civil War is over and RepSPA won -> RepSpa - alliance with FRA + war on POR
+event10 -> At the beginning of Civil War: NatSpa - alliance with POL and ITA -> POL sends 2 infantry divsions as volunteers to help Nationalists -> spawn in Barcelona?
 
-event11 -> copy of Greek surrender script
+event11 -> SPA -> when Civil War is over and RepSPA won -> RepSpa - alliance with FRA + war on POR
+
+event12 -> copy of Greek surrender script
