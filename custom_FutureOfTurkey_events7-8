@@ -3,7 +3,7 @@ country_event = {
 	id = 0007
 
 	trigger = {
-		TAG = POL
+		tag = POL
 		POL = {
 			controls = 4720 #Salonica
 			controls = 5076 #Athina
@@ -16,17 +16,13 @@ country_event = {
 
 	fire_only_once = yes
 
-	title = "EVTNAME5009"
-	desc = "EVTDESC5009"
-	picture = "outlaw_communist_party"
+	title = "EVTNAME1901"
+	desc = "EVTDESC1901"
+	picture = "Albania"
 
 	option = {
-		name = "Join or Die"
-    
-    #Need to take a look at how AI choices are done
-    choice1 -> TUR = {	war = { target = POL } }
-    choice2 -> TUR = {	surrender = { target = POL } } #or is it just TUR = {	surrender = POL } ?
-
+		name = "Join Us or Die!"
+		TUR = { country_event = 0008 }
 	}
 
 	option = {
@@ -83,5 +79,27 @@ country_event = {
 		POL = {
 			14154 = { secede_province = TUR }
 		}
+	}
+}
+
+country_event = {
+	
+	id = 0008
+
+	is_triggered_only = yes
+
+	title = "EVTNAME1901"
+	desc = "EVTDESC1901"
+	picture = "Albania"
+
+	option = {
+		name = "Become one with Poland"
+		ai_chance = { factor = 50 }
+		TUR = { surrender_inherit = POL }
+	}
+	option = {
+		name = "EVTOPTA1901"			# Never!
+		ai_chance = { factor = 50 }
+		TUR = { war = { target = POL } }
 	}
 }
