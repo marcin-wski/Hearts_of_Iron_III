@@ -1,13 +1,19 @@
 country_event = {
 
-	id = 0002
-
-	fire_only_once = yes
+	id = 0014
 
 	title = "EVTNAME5009"
 	desc = "EVTDESC5009"
 	picture = "outlaw_communist_party"
+	
+	trigger = {
+		year = 1937
+		JAP = { NOT = { war_with = CHI } }
+		JAP = { faction = axis }
+	}
 
+	fire_only_once = yes
+	
 	option = {
 		name = "EVTOPTA5010"			# Title, desc, picture, and this name are all gonna be changed
   
