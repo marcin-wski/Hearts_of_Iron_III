@@ -2,9 +2,9 @@ country_event = {
 
 	id = 0014
 
-	title = "EVTNAME5009"
-	desc = "EVTDESC5009"
-	picture = "outlaw_communist_party"
+	title = "EVTNAME1301"
+	desc = "EVTDESC1301"
+	picture = "Memel"
 	
 	trigger = {
 		year = 1937
@@ -15,7 +15,7 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPTA5010"			# Title, desc, picture, and this name are all gonna be changed
+		name = "Railway to British India"
   
 		JAP = {	war = { target = SIA } }
   }
