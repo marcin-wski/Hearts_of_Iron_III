@@ -1,3 +1,66 @@
-Event 9 -> Nationalistic Spain exists
+country_event = {
 
-Event 10 -> Civil War ends, Republican Spain still exists
+	id = 0011
+
+	trigger = {
+		tag = SPR
+		SPR = { NOT = { war_with = SPA } }
+		not = { exists = SPA }
+		year = 1937
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME2001"
+	desc = "EVTDESC2001"
+	picture = "SCW"
+
+	option = {
+		name = "Purge the Fascists"
+		relation = { who = ENG value = 50 }
+		relation = { who = FRA value = 50 }
+		relation = { who = SOV value = 5 }
+		relation = { who = USA value = 5 }
+		relation = { who = GER value = -50 }
+		relation = { who = ITA value = -50 }
+		relation = { who = POL value = -50 }
+		relation = { who = POR value = -100 }
+
+		SPR = {	create_alliance = FRA } }
+		SPR = { war = { target = POR } }
+	}
+}
+
+country_event = {
+	
+	id = 0012
+
+	trigger = {
+		tag = SPA
+		SPA = { NOT = { war_with = SPR } }
+		not = { exists = SPR }
+		year = 1937
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME2002"
+	desc = "EVTDESC2002"
+	picture = "SPA_fascist"
+
+	option = {
+		name = "Those who helped deserve our friendship"
+		relation = { who = ENG value = -50 }
+		relation = { who = FRA value = -50 }
+		relation = { who = SOV value = -5 }
+		relation = { who = USA value = -5 }
+		relation = { who = GER value = 100 }
+		relation = { who = ITA value = 50 }
+		relation = { who = POL value = 50 }
+		relation = { who = POR value = 100 }
+
+		SPA = {	create_alliance = POL } }
+		SPA = {	create_alliance = ITA } }
+		SPA = { military_access = GER } }
+	}
+}
