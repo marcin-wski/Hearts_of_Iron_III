@@ -1,6 +1,6 @@
 country_event = {
 
-	id = 0011
+	id = 0013
 
 	title = "EVTNAME507"
 	desc = "EVTDESC507"
@@ -8,7 +8,7 @@ country_event = {
 
 	trigger = {
 		year = 1936
-		TAG = GRE
+		tag = GRE
 		POL = {
 			controls = 4720 #Salonica
 			controls = 5076 #Athina
