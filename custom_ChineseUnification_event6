@@ -1,0 +1,36 @@
+country_event = {
+
+	id = 0006
+
+	trigger = {
+		tag = CHI
+		CHI = { NOT = { war_with = JAP } }
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+		name = "New era of Chinese Unification!"
+
+    # Guangxi and Sinkiang becoming puppets of Communist China
+		CHC = {
+			create_vassal = CGX
+			create_vassal = SIK
+		}
+
+		CHI = {
+			create_vassal = CYN
+			create_vassal = CXB
+		}
+    
+    		CHC = {	war = { target = CHI } }
+
+    		TIB = {	war = { target = CHI } }
+    		TIB = {	war = { target = CHC } } #Tibet's fight for full independence and not just a nominal autonomous province of China
+		}
+	}
+}
