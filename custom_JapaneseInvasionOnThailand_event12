@@ -1,0 +1,16 @@
+country_event = {
+
+	id = 0002
+
+	fire_only_once = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+		name = "EVTOPTA5010"			# Title, desc, picture, and this name are all gonna be changed
+  
+		JAP = {	war = { target = SIA } }
+  }
+}
