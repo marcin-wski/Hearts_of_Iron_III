@@ -4,9 +4,9 @@ country_event = {
 
 	is_triggered_only = yes
 
-	title = "EVTNAME5009"
-	desc = "EVTDESC5009"
-	picture = "outlaw_communist_party" #This will need to be updated with something more... "help" appropriate
+	title = "Germany sends help"
+	desc = "EVTDESC2007" # Spanish Civil War - German Intervention
+	picture = "SCW"
 
 	option = {
 		name = "Accept the German help"
@@ -35,10 +35,10 @@ country_event = {
 		relation = { who = ITA value = 100 }
 		relation = { who = FRA value = -15 }
 		relation = { who = ENG value = -15 }
-    relation = { who = LIT value = -150 }
+    		relation = { who = LIT value = -150 }
     
-    load_oob = POL_German_volunteers.txt
+    		load_oob = POL_German_volunteers.txt
     
-    LIT = event0002 # Need to find the actual syntax for this, can't remember right now
+    		LIT = { country_event = 0002 }
 	}
 }
