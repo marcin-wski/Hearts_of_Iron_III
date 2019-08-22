@@ -1,0 +1,45 @@
+ountry_event = {
+
+	id = 0009
+
+	trigger = {
+		TAG = POL
+		POL = {
+			controls = 862 #Stockholm
+		}
+		POL = { NOT = { war_with = SWE } }
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME5009"
+	desc = "EVTDESC5009"
+	picture = "outlaw_communist_party"
+
+	option = {
+		name = "Join Us or Die!"
+		FIN = { country_event = 0010 }
+	}
+}
+
+country_event = {
+	
+	id = 0010
+
+	is_triggered_only = yes
+
+	title = "EVTNAME1901"
+	desc = "EVTDESC1901"
+	picture = "Albania"
+
+	option = {
+		name = "Become one with Poland"
+		ai_chance = { factor = 50 }
+		FIN = { surrender_inherit = POL }
+	}
+	option = {
+		name = "EVTOPTA1901"			# Never!
+		ai_chance = { factor = 50 }
+		FIN = { war = { target = POL } }
+	}
+}
