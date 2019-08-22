@@ -11,9 +11,9 @@ country_event = {
 	option = {
 		name = "EVTOPTA1404"			# Then it is War
     
-		LIT = {	alliance = { target = LAT } }
-		LAT = {	alliance = { target = EST } }
-		EST = {	alliance = { target = LIT } }
+		LIT = {	create_alliance = LAT } }
+		LAT = {	create_alliance = EST } }
+		EST = {	create_alliance = LIT } }
   
 		LIT = {	war = { target = POL } }
 		LAT = {	war = {	target = POL } }
