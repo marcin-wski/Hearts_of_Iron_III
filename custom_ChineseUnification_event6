@@ -5,6 +5,7 @@ country_event = {
 	trigger = {
 		tag = CHI
 		CHI = { NOT = { war_with = JAP } }
+		year = 1937
 	}
 
 	fire_only_once = yes
