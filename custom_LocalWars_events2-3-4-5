@@ -4,20 +4,22 @@ country_event = {
 
 	is_triggered_only = yes
 
-	title = "EVTNAME5009"
-	desc = "EVTDESC5009"
-	picture = "outlaw_communist_party"
+	title = "EVTNAME1404"
+	desc = "EVTDESC1404"
+	picture = "Danzig"
 
 	option = {
-		name = "EVTOPTA5010"			# Title, desc, picture, and this name are all gonna be changed
+		name = "EVTOPTA1404"			# Then it is War
     
-	#Need to look into alliances
+		LIT = {	alliance = { target = LAT } }
+		LAT = {	alliance = { target = EST } }
+		EST = {	alliance = { target = LIT } }
   
 		LIT = {	war = { target = POL } }
 		LAT = {	war = {	target = POL } }
 		EST = {	war = {	target = POL } }
     
-    BUL = event3 #again, need to look into this syntax
+    		BUL = { country_event = 0003 }
   }
 }
 
@@ -27,14 +29,17 @@ country_event = {
 
 	is_triggered_only = yes
 
-	title = "EVTNAME5009"
-	desc = "EVTDESC5009"
-	picture = "outlaw_communist_party"
+	title = "EVTNAME2401"
+	desc = "EVTDESC2401" # Bulgarian Claims on Constanta
+	picture = "romania"
 
 	option = {
-	#Bulgaria wants their coast back
-    BUL = {	war = {	target = ROM } }
+		name = "Retake the coast!"
+		#Bulgaria wants their coast back
+    		BUL = {	war = {	target = ROM } }
 		GRE = {	war = {	target = BUL } }
+
+		YUG = { country_event = 0004 }
 	}
 }
 
@@ -44,36 +49,38 @@ country_event = {
 
 	is_triggered_only = yes
 
-	title = "EVTNAME5009"
-	desc = "EVTDESC5009"
-	picture = "outlaw_communist_party"
+	title = "EVTNAME2402"
+	desc = "EVTDESC2402"
+	picture = "romania_tank"
 
 	option = {
-	#Italian diplomacy in action
-	  YUG = {	war = {	target = GRE } }
+		name = "Take Italian money, wreak havoc"
+		#Italian diplomacy in action
+		YUG = {	war = {	target = GRE } }
 		ALB = {	war = {	target = GRE } }
       
-    HUN = event5 #yup, need to still research this
+		HUN = { country_event = 0005 }
 	}
 }
 
 country_event = {
 
 	id = 0005
-  
-  meantime_to_happen = 1 #check this!
 
-	fire_only_once = yes #check this too!
+	meantime_to_happen = {
+		months = 1
+	}
 
-	title = "EVTNAME5009"
-	desc = "EVTDESC5009"
-	picture = "outlaw_communist_party"
+	fire_only_once = yes
+
+	title = "EVTNAME2401"
+	desc = "EVTDESC2401"
+	picture = "romania"
 
 	option = {
-	#Hungary reclaiming their territories
-    HUN = {	war = {	target = YUG } }
+		name = "Take back our cities!"
+		#Hungary reclaiming their territories
+    		HUN = {	war = {	target = YUG } }
 		HUN = {	war = {	target = ROM } }
-      
-    HUN = event5 #yup, need to still research this
 	}
 }
