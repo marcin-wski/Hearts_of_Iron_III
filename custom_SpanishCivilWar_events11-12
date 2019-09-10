@@ -59,8 +59,8 @@ country_event = {
 		relation = { who = POL value = 50 }
 		relation = { who = POR value = 100 }
 
-		SPA = {	create_alliance = POL } }
-		SPA = {	create_alliance = ITA } }
-		SPA = { military_access = GER } }
+		SPA = {	create_alliance = POL }
+		SPA = {	create_alliance = ITA }
+		SPA = { military_access = GER }
 	}
 }
