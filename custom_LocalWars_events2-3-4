@@ -34,12 +34,12 @@ country_event = {
 	picture = "romania"
 
 	option = {
-		name = "Retake the coast!"
+		name = "EVTOPTA1404"			# Then it is War
 		#Bulgaria wants their coast back
     		BUL = {	war = {	target = ROM } }
 		GRE = {	war = {	target = BUL } }
-
-		YUG = { country_event = 0004 }
+		YUG = {	war = {	target = GRE } }
+		ALB = {	war = {	target = GRE } }
 	}
 }
 
@@ -47,38 +47,24 @@ country_event = {
 
 	id = 0004
 
-	is_triggered_only = yes
-
-	title = "EVTNAME2402"
-	desc = "EVTDESC2402"
-	picture = "romania_tank"
-
-	option = {
-		name = "Take Italian money, wreak havoc"
-		#Italian diplomacy in action
-		YUG = {	war = {	target = GRE } }
-		ALB = {	war = {	target = GRE } }
-      
-		HUN = { country_event = 0005 }
+	trigger = {
+		year = 1936
+		GRE = {	war_with = BUL }
+		
 	}
-}
-
-country_event = {
-
-	id = 0005
 
 	meantime_to_happen = {
-		months = 1
+		months = 2
 	}
 
 	fire_only_once = yes
 
 	title = "EVTNAME2401"
-	desc = "EVTDESC2401"
+	desc = "EVTDESC2401" # Bulgarian Claims on Constanta
 	picture = "romania"
 
 	option = {
-		name = "Take back our cities!"
+		name = "EVTOPTA1404"			# Then it is War
 		#Hungary reclaiming their territories
     		HUN = {	war = {	target = YUG } }
 		HUN = {	war = {	target = ROM } }
