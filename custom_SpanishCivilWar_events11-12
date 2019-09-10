@@ -61,6 +61,6 @@ country_event = {
 
 		SPA = {	create_alliance = POL }
 		SPA = {	create_alliance = ITA }
-		SPA = { military_access = GER }
+		GER = { military_access = SPA }
 	}
 }
