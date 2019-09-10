@@ -53,7 +53,7 @@ country_event = {
 		
 	}
 
-	meantime_to_happen = {
+	mean_time_to_happen = {
 		months = 2
 	}
 
