@@ -1,5 +1,5 @@
 division = {
-	name = "First Volunteer Division"
+	name = "1 Dywizja Ochotnicza"
 	leader = 8075		#Maczek 
 	location = 1532		#Wilno
 	regiment = { type = armor_brigade historical_model = current }
@@ -8,9 +8,8 @@ division = {
 	regiment = { type = sp_artillery_brigade historical_model = current }
 }
 division = {
-	name = "Second Volunteer Division"
-	leader = 
-8002		#Anders
+	name = "2 Dywizja Ochotnicza"
+	leader = 8002		#Anders
 	location = 1630		#Suwalki
 	regiment = { type = armor_brigade historical_model = current }
 	regiment = { type = engineer_brigade historical_model = current }
@@ -18,7 +17,7 @@ division = {
 	regiment = { type = sp_artillery_brigade historical_model = current }
 }
 division = {
-	name = "Third Volunteer Division"
+	name = "3 Dywizja Ochotnicza"
 	leader = 8029		#Duch
 	location = 1355		#Zarasai
 	regiment = { type = armor_brigade historical_model = current }
@@ -27,7 +26,7 @@ division = {
 	regiment = { type = sp_artillery_brigade historical_model = current }
 }
 division = {
-	name = "Fourth Volunteer Division"
+	name = "4 Dywizja Ochotnicza"
 	leader = 8113		#Rola-Zymierski
 	location = 1751		#Grodno
 	regiment = { type = armor_brigade historical_model = current }
@@ -36,7 +35,7 @@ division = {
 	regiment = { type = sp_artillery_brigade historical_model = current }
 }
 division = {
-	name = "Fifth Volunteer Division"
+	name = "5 Dywizja Ochotnicza"
 	leader = 8132		#Sosnkowski
 	location = 1531		#Trakai
 	regiment = { type = armor_brigade historical_model = current }
@@ -45,7 +44,7 @@ division = {
 	regiment = { type = sp_artillery_brigade historical_model = current }
 }
 division = {
-	name = "Six Volunteer Division"
+	name = "6 Dywizja Ochotnicza"
 	leader = 8131		#Sosabowski
 	location = 1532		#Wilno
 	regiment = { type = armor_brigade historical_model = current }
@@ -55,7 +54,7 @@ division = {
 }
 division = {
 	name = "First Home Division"
-	leader = 8010		#Bór-Komorowski
+	leader = 8010		#BÃ³r-Komorowski
 	location = 1983		#Pruszkow
 	regiment = { type = infantry_brigade historical_model = current }
 	regiment = { type = infantry_brigade historical_model = current }
