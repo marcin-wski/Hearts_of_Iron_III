@@ -27,6 +27,7 @@ country_event = {
 			organisation = -10
 			popularity = -100
 		}
+		government = right_wing_republic
 		neutrality = -100
 		relation = { who = SOV value = -60 }
 		relation = { who = GER value = 100 }
