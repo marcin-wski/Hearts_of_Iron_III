@@ -15,8 +15,7 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPTA1101"			# Become a part of the Greater Reich
-  
+		name = "Railroad to British India!"
 		SIA = { country_event = 0014 }
   	}
 }
