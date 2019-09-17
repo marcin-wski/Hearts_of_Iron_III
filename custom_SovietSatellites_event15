@@ -1,0 +1,23 @@
+country_event = {
+
+	id = 0015
+
+	title = "EVTNAME507"
+	desc = "EVTDESC507"
+	picture = "Bitter_Peace"
+
+	trigger = {
+		POL = {
+			controls = 1409 #Moskva
+		}
+		not = { exists = SOV }
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA507"					# We surrender! Just let us keep what we still have.
+		POL = { surrender_inherit = MON }
+		POL = { surrender_inherit = TAN }
+	}
+}
