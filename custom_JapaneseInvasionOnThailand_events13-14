@@ -1,0 +1,44 @@
+country_event = {
+
+	id = 0013
+
+	title = "EVTNAME1301"
+	desc = "EVTDESC1301"
+	picture = "Memel"
+	
+	trigger = {
+		year = 1939
+		JAP = { NOT = { war_with = CHI } }
+		JAP = { faction = axis }
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA1101"			# Become a part of the Greater Reich
+  
+		SIA = { country_event = 0014 }
+  	}
+}
+
+country_event = {
+
+	id = 0014
+
+	is_triggered_only = yes
+
+	title = "EVTNAME1901"
+	desc = "EVTDESC1901"
+	picture = "Albania"
+
+	option = {
+		name = "EVTOPTA1101"			# Become a part of the Greater Reich
+		ai_chance = { factor = 50 }
+		JAP = { surrender_inherit = SIA }
+	}
+	option = {
+		name = name = "EVTOPTB3401"			# We will fight to the end
+		ai_chance = { factor = 50 }
+		SIA = { war = { target = JAP } }
+	}
+}
