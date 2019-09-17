@@ -1,0 +1,83 @@
+division = {
+	name = "First Volunteer Division"
+	leader = 8075		#Maczek 
+	location = 1532		#Wilno
+	regiment = { type = armor_brigade historical_model = current }
+	regiment = { type = engineer_brigade historical_model = current }
+	regiment = { type = motorized_brigade historical_model = current }
+	regiment = { type = sp_artillery_brigade historical_model = current }
+}
+division = {
+	name = "Second Volunteer Division"
+	leader = 
+8002		#Anders
+	location = 1630		#Suwalki
+	regiment = { type = armor_brigade historical_model = current }
+	regiment = { type = engineer_brigade historical_model = current }
+	regiment = { type = motorized_brigade historical_model = current }
+	regiment = { type = sp_artillery_brigade historical_model = current }
+}
+division = {
+	name = "Third Volunteer Division"
+	leader = 8029		#Duch
+	location = 1355		#Zarasai
+	regiment = { type = armor_brigade historical_model = current }
+	regiment = { type = engineer_brigade historical_model = current }
+	regiment = { type = motorized_brigade historical_model = current }
+	regiment = { type = sp_artillery_brigade historical_model = current }
+}
+division = {
+	name = "Fourth Volunteer Division"
+	leader = 8113		#Rola-Zymierski
+	location = 1751		#Grodno
+	regiment = { type = armor_brigade historical_model = current }
+	regiment = { type = engineer_brigade historical_model = current }
+	regiment = { type = motorized_brigade historical_model = current }
+	regiment = { type = sp_artillery_brigade historical_model = current }
+}
+division = {
+	name = "Fifth Volunteer Division"
+	leader = 8132		#Sosnkowski
+	location = 1531		#Trakai
+	regiment = { type = armor_brigade historical_model = current }
+	regiment = { type = engineer_brigade historical_model = current }
+	regiment = { type = motorized_brigade historical_model = current }
+	regiment = { type = sp_artillery_brigade historical_model = current }
+}
+division = {
+	name = "Six Volunteer Division"
+	leader = 8131		#Sosabowski
+	location = 1532		#Wilno
+	regiment = { type = armor_brigade historical_model = current }
+	regiment = { type = engineer_brigade historical_model = current }
+	regiment = { type = motorized_brigade historical_model = current }
+	regiment = { type = sp_artillery_brigade historical_model = current }
+}
+division = {
+	name = "First Home Division"
+	leader = 8010		#Bór-Komorowski
+	location = 1983		#Pruszkow
+	regiment = { type = infantry_brigade historical_model = current }
+	regiment = { type = infantry_brigade historical_model = current }
+	regiment = { type = artillery_brigade historical_model = current }
+	regiment = { type = anti_tank_brigade historical_model = current }
+}
+division = {
+	name = "Second Home Division"
+	leader = 8141		#Szyszko-Bohusz
+	location = 2038		#Kalisz
+	regiment = { type = infantry_brigade historical_model = current }
+	regiment = { type = infantry_brigade historical_model = current }
+	regiment = { type = artillery_brigade historical_model = current }
+	regiment = { type = anti_tank_brigade historical_model = current }
+}
+division = {
+	name = "Third Home Division"
+	leader = 8160		#Ziemski
+	location = 2040		#Lodz
+	regiment = { type = infantry_brigade historical_model = current }
+	regiment = { type = infantry_brigade historical_model = current }
+	regiment = { type = artillery_brigade historical_model = current }
+	regiment = { type = anti_tank_brigade historical_model = current }
+}
+
