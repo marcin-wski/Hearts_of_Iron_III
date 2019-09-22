@@ -1,4 +1,4 @@
-ountry_event = {
+country_event = {
 
 	id = 0009
 
@@ -35,7 +35,7 @@ country_event = {
 	option = {
 		name = "Become one with Poland"
 		ai_chance = { factor = 50 }
-		FIN = { surrender_inherit = POL }
+		POL = { surrender_inherit = FIN }
 	}
 	option = {
 		name = "EVTOPTA1901"			# Never!
