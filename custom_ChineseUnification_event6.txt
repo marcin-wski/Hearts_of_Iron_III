@@ -17,7 +17,6 @@ country_event = {
 	option = {
 		name = "New era of Chinese Unification!"
 
-    		# Guangxi and Sinkiang becoming puppets of Communist China
 		CHC = {
 			create_vassal = CGX
 			create_vassal = SIK
