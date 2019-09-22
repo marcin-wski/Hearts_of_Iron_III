@@ -95,7 +95,7 @@ country_event = {
 	option = {
 		name = "Become one with Poland"
 		ai_chance = { factor = 50 }
-		TUR = { surrender_inherit = POL }
+		POL = { surrender_inherit = TUR }
 	}
 	option = {
 		name = "EVTOPTA1901"			# Never!
