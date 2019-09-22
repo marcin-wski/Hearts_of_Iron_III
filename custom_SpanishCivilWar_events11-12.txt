@@ -26,7 +26,7 @@ country_event = {
 		relation = { who = POL value = -50 }
 		relation = { who = POR value = -100 }
 
-		SPR = {	create_alliance = FRA } }
+		SPR = {	create_alliance = FRA }
 		SPR = { war = { target = POR } }
 	}
 }
