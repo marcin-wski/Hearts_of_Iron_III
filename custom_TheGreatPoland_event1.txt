@@ -37,6 +37,8 @@ country_event = {
 		relation = { who = FRA value = -15 }
 		relation = { who = ENG value = -15 }
     		relation = { who = LIT value = -150 }
+		dissent = -20
+		money = 1000
     
     		load_oob = POL_German_volunteers.txt
     
