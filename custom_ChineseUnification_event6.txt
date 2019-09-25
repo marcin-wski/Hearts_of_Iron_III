@@ -17,16 +17,6 @@ country_event = {
 	option = {
 		name = "New era of Chinese Unification!"
 
-		CHC = {
-			create_vassal = CGX
-			create_vassal = SIK
-		}
-
-		CHI = {
-			create_vassal = CYN
-			create_vassal = CXB
-		}
-
     		#War to unify China
     		CHC = {	war = { target = CHI } }
 
@@ -36,19 +26,16 @@ country_event = {
 				infantry_brigade = current
 				infantry_brigade = current
 				infantry_brigade = current
-				infantry_brigade = current
-				infantry_brigade = current
-				infantry_brigade = current
 			}
-		}
+		}	
 
 		#CHC is a lot friendlier with the Soviets now, CHI wants to be friends with USA. Ya know, democracy and stuf
+
 		CHC = { relation = { who = SOV value = 200 } }
 		CHI = { relation = { who = USA value = 100 } }
 
 		#Tibet's fight for full independence and not just a nominally autonomous province of China
     		TIB = {	war = { target = CHI } }
-    		TIB = {	war = { target = CHC } }
-		}
+   		TIB = {	war = { target = CHC } }
 	}
 }
